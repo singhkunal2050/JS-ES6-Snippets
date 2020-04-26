@@ -1,0 +1,9 @@
+
+// v a r magic = f u nction() 
+
+
+const magic = () => {
+  "use strict";
+  return new Date();
+};
+
