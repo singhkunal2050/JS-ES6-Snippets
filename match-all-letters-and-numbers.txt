@@ -1,0 +1,9 @@
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // w for alphanumeric g for repeat 
+let result = quoteSample.match(alphabetRegexV2).length;
+
+
+
+
+// The closest character class in JavaScript to match the alphabet is \w. This shortcut is equal to [A-Za-z0-9_].
+// Note, this character class also includes the underscore character (_).
