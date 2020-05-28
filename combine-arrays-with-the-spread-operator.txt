@@ -1,0 +1,9 @@
+function spreadOut() {
+  let fragment = [ 'code']
+  fragment.unshift("learning","to")
+  fragment.push("is","fun")
+  let sentence = [...fragment]; // Change this line
+  return sentence;
+}
+
+console.log(spreadOut());
